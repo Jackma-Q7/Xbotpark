@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
+<title>I²C 波形示例：7 位地址 0x50，写方向，ACK</title>
+<rect x="1" y="1" width="998" height="358" rx="16" fill="#fcfcfd" stroke="#ddd"/>
+<g font-family="Segoe UI,Microsoft YaHei,sans-serif" font-size="15" fill="#202124">
+<text x="24" y="32" font-size="19">I²C 波形示例：设备地址 0x50 + 写位 W(0) + ACK</text>
+<text x="24" y="58" fill="#666" font-size="13">首字节 0xA0 = 1010000 + 0；地址探测事务，示意图，非实测波形</text>
+<rect x="780" y="90" width="70" height="175" fill="#dcfce7"/>
+<g fill="#666" text-anchor="middle">
+<text x="245" y="105">A6</text><text x="315" y="105">A5</text><text x="385" y="105">A4</text><text x="455" y="105">A3</text><text x="525" y="105">A2</text><text x="595" y="105">A1</text><text x="665" y="105">A0</text><text x="735" y="105">W</text><text x="815" y="105" fill="#15803d">ACK</text>
+</g>
+<text x="26" y="153" font-size="18">SCL</text><text x="26" y="233" font-size="18">SDA</text>
+<g stroke="#16a34a" stroke-opacity="0.4" stroke-dasharray="4 5" fill="none">
+<path d="M230 120V266 M300 120V266 M370 120V266 M440 120V266 M510 120V266 M580 120V266 M650 120V266 M720 120V266 M800 120V266"/>
+</g>
+<path d="M100 135H190V170H230V135H265V170H300V135H335V170H370V135H405V170H440V135H475V170H510V135H545V170H580V135H615V170H650V135H685V170H720V135H755V170H800V135H835V170H870V135H955" fill="none" stroke="#ef7900" stroke-width="2.5"/>
+<path d="M100 215H150V250H210V215H280V250H350V215H420V250H780" fill="none" stroke="#8957ff" stroke-width="2.5"/>
+<path d="M780 250H845" fill="none" stroke="#16a34a" stroke-width="3"/>
+<path d="M845 250H910V215H955" fill="none" stroke="#8957ff" stroke-width="2.5"/>
+<g text-anchor="middle" fill="#8957ff">
+<text x="245" y="205">1</text><text x="315" y="269">0</text><text x="385" y="205">1</text><text x="455" y="269">0</text><text x="525" y="269">0</text><text x="595" y="269">0</text><text x="665" y="269">0</text><text x="735" y="269">0</text><text x="815" y="269" fill="#15803d">0</text>
+</g>
+<g fill="#b45309" text-anchor="middle" font-size="13"><text x="150" y="105">START</text><text x="910" y="105">STOP</text></g>
+<path d="M150 115V270 M910 115V270" stroke="#d97706" stroke-dasharray="4 4" fill="none"/>
+<text x="24" y="302" font-size="14">START / STOP：SCL 为高时，SDA 下降 / 上升。数据位在 SCL 高电平期间保持稳定。</text>
+<text x="24" y="330" font-size="14">第 9 个时钟：主机释放 SDA，从机拉低应答；普通写事务会在 ACK 后继续发送内部地址和数据。</text>
+</g>
+</svg>

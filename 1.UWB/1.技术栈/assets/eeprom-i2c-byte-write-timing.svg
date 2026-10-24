@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="410" viewBox="0 0 1500 410" role="img" aria-labelledby="title"><title id="title">EEPROM 完整 I2C 单字节写入波形</title><rect x="1" y="1" width="1498" height="408" rx="16" fill="#fcfcfd" stroke="#ddd"/><g font-family="Segoe UI,Microsoft YaHei,sans-serif" fill="#202124">
+<text x="24" y="32" fill="#202124" font-size="21">EEPROM：向内部地址 0x10 写入 0xA5 的完整 I²C 波形</text>
+<text x="24" y="59" fill="#666" font-size="14">7 位设备地址 0x50 ｜ 8 位内部地址 ｜ 27 个数据/应答时钟 ｜ STOP 后进入内部写周期（示意，非实测）</text>
+<text x="22" y="170" fill="#202124" font-size="19">SCL</text>
+<text x="22" y="251" fill="#202124" font-size="19">SDA</text>
+<rect x="180" y="77" width="338" height="28" rx="5" fill="#f0eaff"/>
+<text x="187" y="96" fill="#333" font-size="13">① 主机发送 0xA0（0x50 + W=0）</text>
+<path d="M 192 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="192" y="215" fill="#8957ff" font-size="13">1</text>
+<text x="182" y="126" fill="#666" font-size="10">A6</text>
+<path d="M 230 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="230" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="220" y="126" fill="#666" font-size="10">A5</text>
+<path d="M 268 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="268" y="215" fill="#8957ff" font-size="13">1</text>
+<text x="258" y="126" fill="#666" font-size="10">A4</text>
+<path d="M 306 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="306" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="296" y="126" fill="#666" font-size="10">A3</text>
+<path d="M 344 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="344" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="334" y="126" fill="#666" font-size="10">A2</text>
+<path d="M 382 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="382" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="372" y="126" fill="#666" font-size="10">A1</text>
+<path d="M 420 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="420" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="410" y="126" fill="#666" font-size="10">A0</text>
+<path d="M 458 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="458" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="448" y="126" fill="#666" font-size="10">W</text>
+<path d="M 496 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<rect x="484" y="110" width="37" height="179" fill="#dcfce7" fill-opacity="0.6"/>
+<text x="496" y="279" fill="#15803d" font-size="13">0</text>
+<text x="486" y="126" fill="#666" font-size="10">ACK</text>
+<rect x="522" y="77" width="338" height="28" rx="5" fill="#f0eaff"/>
+<text x="529" y="96" fill="#333" font-size="13">② 主机发送内部地址 0x10</text>
+<path d="M 534 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="534" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="524" y="126" fill="#666" font-size="10">D7</text>
+<path d="M 572 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="572" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="562" y="126" fill="#666" font-size="10">D6</text>
+<path d="M 610 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="610" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="600" y="126" fill="#666" font-size="10">D5</text>
+<path d="M 648 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="648" y="215" fill="#8957ff" font-size="13">1</text>
+<text x="638" y="126" fill="#666" font-size="10">D4</text>
+<path d="M 686 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="686" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="676" y="126" fill="#666" font-size="10">D3</text>
+<path d="M 724 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="724" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="714" y="126" fill="#666" font-size="10">D2</text>
+<path d="M 762 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="762" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="752" y="126" fill="#666" font-size="10">D1</text>
+<path d="M 800 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="800" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="790" y="126" fill="#666" font-size="10">D0</text>
+<path d="M 838 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<rect x="826" y="110" width="37" height="179" fill="#dcfce7" fill-opacity="0.6"/>
+<text x="838" y="279" fill="#15803d" font-size="13">0</text>
+<text x="828" y="126" fill="#666" font-size="10">ACK</text>
+<rect x="864" y="77" width="338" height="28" rx="5" fill="#f0eaff"/>
+<text x="871" y="96" fill="#333" font-size="13">③ 主机发送写入数据 0xA5</text>
+<path d="M 876 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="876" y="215" fill="#8957ff" font-size="13">1</text>
+<text x="866" y="126" fill="#666" font-size="10">D7</text>
+<path d="M 914 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="914" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="904" y="126" fill="#666" font-size="10">D6</text>
+<path d="M 952 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="952" y="215" fill="#8957ff" font-size="13">1</text>
+<text x="942" y="126" fill="#666" font-size="10">D5</text>
+<path d="M 990 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="990" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="980" y="126" fill="#666" font-size="10">D4</text>
+<path d="M 1028 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="1028" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="1018" y="126" fill="#666" font-size="10">D3</text>
+<path d="M 1066 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="1066" y="215" fill="#8957ff" font-size="13">1</text>
+<text x="1056" y="126" fill="#666" font-size="10">D2</text>
+<path d="M 1104 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="1104" y="279" fill="#8957ff" font-size="13">0</text>
+<text x="1094" y="126" fill="#666" font-size="10">D1</text>
+<path d="M 1142 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<text x="1142" y="215" fill="#8957ff" font-size="13">1</text>
+<text x="1132" y="126" fill="#666" font-size="10">D0</text>
+<path d="M 1180 133 V 281" stroke="#16a34a" stroke-opacity="0.25" stroke-dasharray="3 4" fill="none"/>
+<rect x="1168" y="110" width="37" height="179" fill="#dcfce7" fill-opacity="0.6"/>
+<text x="1180" y="279" fill="#15803d" font-size="13">0</text>
+<text x="1170" y="126" fill="#666" font-size="10">ACK</text>
+<rect x="1275" y="110" width="197" height="179" rx="5" fill="#eef2ff"/>
+<text x="1290" y="126" fill="#555" font-size="15">内部写周期 tWR</text>
+<text x="1290" y="279" fill="#666" font-size="13">总线空闲（示例）</text>
+<path d="M 100 145 H 155 V 180 H 192 V 145 H 210 V 180 H 230 V 145 H 248 V 180 H 268 V 145 H 286 V 180 H 306 V 145 H 324 V 180 H 344 V 145 H 362 V 180 H 382 V 145 H 400 V 180 H 420 V 145 H 438 V 180 H 458 V 145 H 476 V 180 H 496 V 145 H 514 V 180 H 534 V 145 H 552 V 180 H 572 V 145 H 590 V 180 H 610 V 145 H 628 V 180 H 648 V 145 H 666 V 180 H 686 V 145 H 704 V 180 H 724 V 145 H 742 V 180 H 762 V 145 H 780 V 180 H 800 V 145 H 818 V 180 H 838 V 145 H 856 V 180 H 876 V 145 H 894 V 180 H 914 V 145 H 932 V 180 H 952 V 145 H 970 V 180 H 990 V 145 H 1008 V 180 H 1028 V 145 H 1046 V 180 H 1066 V 145 H 1084 V 180 H 1104 V 145 H 1122 V 180 H 1142 V 145 H 1160 V 180 H 1180 V 145 H 1198 V 180 H 1225 V 145 H 1470" fill="none" stroke="#ef7900" stroke-width="2.5"/>
+<path d="M 100 225 H 130 V 260 H 184 V 225 H 222 V 260 H 260 V 225 H 298 V 260 H 640 V 225 H 678 V 260 H 868 V 225 H 906 V 260 H 944 V 225 H 982 V 260 H 1058 V 225 H 1096 V 260 H 1134 V 225 H 1172 V 260 H 1260 V 225 H 1470" fill="none" stroke="#8957ff" stroke-width="2.5"/>
+<path d="M 488 260 H 522" fill="none" stroke="#16a34a" stroke-width="3"/>
+<path d="M 830 260 H 864" fill="none" stroke="#16a34a" stroke-width="3"/>
+<path d="M 1172 260 H 1206" fill="none" stroke="#16a34a" stroke-width="3"/>
+<path d="M 130 132 V 286" stroke="#d97706" stroke-dasharray="4 4" fill="none"/>
+<text x="112" y="120" fill="#b45309" font-size="12">START</text>
+<path d="M 1260 132 V 286" stroke="#d97706" stroke-dasharray="4 4" fill="none"/>
+<text x="1242" y="120" fill="#b45309" font-size="12">STOP</text>
+<text x="24" y="320" fill="#555" font-size="15">紫色：STM32 发送地址/数据、控制 START / STOP　　绿色：EEPROM 拉低 SDA，返回 ACK</text>
+<text x="24" y="350" fill="#555" font-size="15">三个字节均由主机发送，每字节后由 EEPROM 应答；收到最后一个 ACK 后，主机产生 STOP。</text>
+<text x="24" y="380" fill="#666" font-size="14">STOP 后 EEPROM 执行内部写入；ACK 表示接收字节，不代表已完成掉电保存。时间轴未按比例绘制。</text>
+</g></svg>

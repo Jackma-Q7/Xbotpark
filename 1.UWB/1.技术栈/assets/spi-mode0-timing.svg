@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="445" viewBox="0 0 900 445"><title>SPI Mode 0 时序示意图</title><rect x="1" y="1" width="898" height="443" rx="16" fill="#fcfcfd" stroke="#ddd"/><g font-family="Segoe UI,Microsoft YaHei,sans-serif" font-size="15" fill="#202124">
+<text x="22" y="30" fill="#202124" font-size="15">SPI Mode 0 时序示意图</text>
+<text x="24" y="100" fill="#202124" font-size="17">NSS</text>
+<text x="24" y="180" fill="#202124" font-size="17">SCK</text>
+<text x="24" y="260" fill="#202124" font-size="17">MOSI</text>
+<text x="24" y="340" fill="#202124" font-size="17">MISO</text>
+<text x="190" y="65" fill="#202124" font-size="15">D7</text>
+<path d="M 160 72 V 375" stroke="#ddd" stroke-dasharray="3 5"/>
+<path d="M 180 128 V 375" stroke="#16a34a" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+<path d="M 176 169 L 180 157 L 184 169" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="270" y="65" fill="#202124" font-size="15">D6</text>
+<path d="M 240 72 V 375" stroke="#ddd" stroke-dasharray="3 5"/>
+<path d="M 260 128 V 375" stroke="#16a34a" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+<path d="M 256 169 L 260 157 L 264 169" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="350" y="65" fill="#202124" font-size="15">D5</text>
+<path d="M 320 72 V 375" stroke="#ddd" stroke-dasharray="3 5"/>
+<path d="M 340 128 V 375" stroke="#16a34a" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+<path d="M 336 169 L 340 157 L 344 169" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="430" y="65" fill="#202124" font-size="15">D4</text>
+<path d="M 400 72 V 375" stroke="#ddd" stroke-dasharray="3 5"/>
+<path d="M 420 128 V 375" stroke="#16a34a" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+<path d="M 416 169 L 420 157 L 424 169" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="510" y="65" fill="#202124" font-size="15">D3</text>
+<path d="M 480 72 V 375" stroke="#ddd" stroke-dasharray="3 5"/>
+<path d="M 500 128 V 375" stroke="#16a34a" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+<path d="M 496 169 L 500 157 L 504 169" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="590" y="65" fill="#202124" font-size="15">D2</text>
+<path d="M 560 72 V 375" stroke="#ddd" stroke-dasharray="3 5"/>
+<path d="M 580 128 V 375" stroke="#16a34a" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+<path d="M 576 169 L 580 157 L 584 169" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="670" y="65" fill="#202124" font-size="15">D1</text>
+<path d="M 640 72 V 375" stroke="#ddd" stroke-dasharray="3 5"/>
+<path d="M 660 128 V 375" stroke="#16a34a" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+<path d="M 656 169 L 660 157 L 664 169" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="750" y="65" fill="#202124" font-size="15">D0</text>
+<path d="M 720 72 V 375" stroke="#ddd" stroke-dasharray="3 5"/>
+<path d="M 740 128 V 375" stroke="#16a34a" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+<path d="M 736 169 L 740 157 L 744 169" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M 150 86 H 160 V 110 H 800 V 86 H 830" fill="none" stroke="#2962ff" stroke-width="2.5"/>
+<path d="M 150 190 H 180 V 150 H 220 V 190 H 260 V 150 H 300 V 190 H 340 V 150 H 380 V 190 H 420 V 150 H 460 V 190 H 500 V 150 H 540 V 190 H 580 V 150 H 620 V 190 H 660 V 150 H 700 V 190 H 740 V 150 H 780 V 190 H 820" fill="none" stroke="#ef7900" stroke-width="2.5"/>
+<path d="M 150 230 H 220 V 262 H 300 V 230 H 380 V 262 H 460 V 262 H 540 V 230 H 620 V 262 H 700 V 230 H 800" fill="none" stroke="#8957ff" stroke-width="2.5"/>
+<text x="192" y="221" fill="#8957ff" font-size="15">1</text>
+<text x="272" y="283" fill="#8957ff" font-size="15">0</text>
+<text x="352" y="221" fill="#8957ff" font-size="15">1</text>
+<text x="432" y="283" fill="#8957ff" font-size="15">0</text>
+<text x="512" y="283" fill="#8957ff" font-size="15">0</text>
+<text x="592" y="221" fill="#8957ff" font-size="15">1</text>
+<text x="672" y="283" fill="#8957ff" font-size="15">0</text>
+<text x="752" y="221" fill="#8957ff" font-size="15">1</text>
+<path d="M 150 342 H 220 V 342 H 300 V 310 H 380 V 310 H 460 V 310 H 540 V 310 H 620 V 342 H 700 V 342 H 800" fill="none" stroke="#009fbe" stroke-width="2.5"/>
+<text x="192" y="363" fill="#009fbe" font-size="15">0</text>
+<text x="272" y="363" fill="#009fbe" font-size="15">0</text>
+<text x="352" y="301" fill="#009fbe" font-size="15">1</text>
+<text x="432" y="301" fill="#009fbe" font-size="15">1</text>
+<text x="512" y="301" fill="#009fbe" font-size="15">1</text>
+<text x="592" y="301" fill="#009fbe" font-size="15">1</text>
+<text x="672" y="363" fill="#009fbe" font-size="15">0</text>
+<text x="752" y="363" fill="#009fbe" font-size="15">0</text>
+<text x="330" y="399" fill="#666" font-size="13">绿色虚线：SCK 上升沿采样（示意图，非实测）</text>
+<circle cx="22" cy="426" r="5" fill="#16a34a"/>
+<text x="32" y="430" fill="#666" font-size="13">采样时刻</text>
+<circle cx="150" cy="426" r="5" fill="#8957ff"/>
+<text x="160" y="430" fill="#666" font-size="13">MOSI: 0xA5</text>
+<circle cx="300" cy="426" r="5" fill="#009fbe"/>
+<text x="310" y="430" fill="#666" font-size="13">MISO: 0x3C</text>
+</g></svg>
